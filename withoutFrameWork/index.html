@@ -3,22 +3,45 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="jsfile.js"></script>
 </head>
 <body>
 
-<ul class="topnav">
-  <li><a class="active" href="#home">Home</a></li>
+<ul>
+  <li><a href="#objective">Objective</a></li>
   <li><a href="#certification">Certifications</a></li>
   <li><a href="#education">Education</a></li>
   <li><a href="#experience">Experience</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li class="right"><a href="#about">About</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Contact</a>
+    <div class="dropdown-content">
+	  <a href="JavaScript:email()"><img src="images/emailLogo.jpg" class="responsive"></a>
+      <a href="JavaScript:gitHub()"><img src="images/gitHub.png" class="responsive"></a>
+      <a href="JavaScript:linkedIn()"><img src="images/linkedIn.jpg" class="responsive"></a>
+    </div>
+	<li style="float:right"><a class="active" href="#about">About</a></li>
+  </li>
 </ul>
 
 <div class="header">
-  <h1>Header</h1>
+  <h1>Name Here</h1>
 </div>
-<p>This is a paragraph.</p>
+
+<pre>Objective Section
+		Add your objective here.
+</pre>
+
+<pre>Certifications Section
+		Add your certifications here.
+</pre>
+
+<pre>Education Section
+		Add your education here.
+</pre>
+
+<pre>Experience Section
+		Add experience here.
+</pre>
 
 </body>
 </html>
