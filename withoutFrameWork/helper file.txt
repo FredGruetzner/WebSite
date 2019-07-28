@@ -43,3 +43,7 @@ var result = str.link("https://www.w3schools.com");
 window.location.href = "http://example.com/new_url";
 
 target="_blank"
+
+background-color: #f9f9f9;
+
+

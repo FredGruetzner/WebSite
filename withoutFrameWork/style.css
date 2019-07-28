@@ -110,6 +110,13 @@ li.dropdown {
   font-size: 2vw;
 }
 
+.relative {
+   position: sticky;
+   bottom: 150px;
+   right: 300px;	
+   float: right;
+}
+
 pre {
   font-family: verdana;
   font-size: 2vw;
