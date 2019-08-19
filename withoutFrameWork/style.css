@@ -28,7 +28,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: green;
 }
 
 li.dropdown {
@@ -52,7 +52,7 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {background-color: #64ce90;}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -103,6 +103,11 @@ li.dropdown {
 .header {
   text-align: center;
   font-size:2vw;
+}
+
+.left {
+	position: sticky;
+	font-size:2vw;
 }
 
 .paragraph {
